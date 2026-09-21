@@ -15,7 +15,7 @@ import { extractHumanIntentKeywords } from './tools/human-intent.js';
 import { runComprehensiveSeoAudit } from './tools/full-audit.js';
 const server = new Server({
     name: 'io.github.AI-BuildInfra/SEO-intentrank',
-    version: '1.0.0',
+    version: '1.0.1',
 }, {
     capabilities: {
         tools: {},

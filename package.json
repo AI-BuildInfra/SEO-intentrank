@@ -1,6 +1,6 @@
 {
   "name": "seo-intentrank",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "mcpName": "io.github.AI-BuildInfra/SEO-intentrank",
   "description": "Official Model Context Protocol (MCP) Server for SEO-IntentRank: Human Search Intent Keywords, Technical SEO, Google Lighthouse Core Web Vitals (CLS/LCP/INP), and On-Page Audits. By AI Build Infra.",
   "main": "dist/index.js",
