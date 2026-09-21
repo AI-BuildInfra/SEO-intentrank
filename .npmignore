@@ -1,0 +1,7 @@
+# Source & Dev files
+src/
+tests/
+run-audit.js
+tsconfig.json
+.git/
+.gitignore

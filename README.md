@@ -1,4 +1,4 @@
-# SEO-IntentRank MCP Server (`@aibuildinfra/seo-intentrank`)
+# SEO-IntentRank MCP Server (`seo-intentrank`)
 
 > **Official Model Context Protocol (MCP) Server for SEO-IntentRank: Human Search Intent Keywords, Technical SEO Audits, Google Lighthouse Core Web Vitals (CLS/LCP/INP), and On-Page Diagnostic Intelligence.**
 
@@ -26,7 +26,7 @@ Developed and maintained by [AI Build Infra](https://aibuildinfra.com/).
 
 ### Running with NPX
 ```bash
-npx -y @aibuildinfra/seo-intentrank
+npx -y seo-intentrank
 ```
 
 ### Adding to Antigravity / Claude Desktop Configuration
@@ -38,7 +38,7 @@ Add the following to your `mcpServers` configuration (`mcp_config.json` or `clau
   "mcpServers": {
     "seo-intentrank": {
       "command": "npx",
-      "args": ["-y", "@aibuildinfra/seo-intentrank"]
+      "args": ["-y", "seo-intentrank"]
     }
   }
 }
