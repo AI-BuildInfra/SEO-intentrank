@@ -1,5 +1,10 @@
 # SEO-IntentRank MCP Server (`seo-intentrank`)
 
+[![M8ven Verified](https://m8ven.ai/api/agent-verify/badge?score=96)](https://m8ven.ai/verified/verify?id=0318da1e58a1109e)
+[![npm version](https://img.shields.io/npm/v/seo-intentrank.svg?style=flat-square)](https://www.npmjs.com/package/seo-intentrank)
+[![license](https://img.shields.io/npm/l/seo-intentrank.svg?style=flat-square)](https://github.com/AI-BuildInfra/SEO-intentrank/blob/main/LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/AI-BuildInfra/SEO-intentrank.svg?style=flat-square)](https://github.com/AI-BuildInfra/SEO-intentrank)
+
 > **Official Model Context Protocol (MCP) Server for SEO-IntentRank: Human Search Intent Keywords, Technical SEO Audits, Google Lighthouse Core Web Vitals (CLS/LCP/INP), and On-Page Diagnostic Intelligence.**
 
 Developed and maintained by [AI Build Infra](https://aibuildinfra.com/).
