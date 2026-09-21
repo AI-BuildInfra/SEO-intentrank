@@ -38,6 +38,12 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
       {
         name: 'scan_onpage_seo',
         description: 'Scans On-Page SEO elements from a live URL or HTML string: Meta title length/pixel width, Meta description, Open Graph tags, Twitter Cards, Canonical tags, and Image Alt tags (with missing width/height CLS checks).',
+        annotations: {
+          readOnlyHint: true,
+          destructiveHint: false,
+          idempotentHint: true,
+          openWorldHint: true,
+        },
         inputSchema: {
           type: 'object',
           properties: {
@@ -55,6 +61,12 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
       {
         name: 'audit_lighthouse_cls_vitals',
         description: 'Audits Cumulative Layout Shift (CLS) score and Core Web Vitals (LCP, INP, FCP, TTFB, Lighthouse Performance/SEO scores) directly via Google Lighthouse / PageSpeed API and local DOM shift heuristics.',
+        annotations: {
+          readOnlyHint: true,
+          destructiveHint: false,
+          idempotentHint: true,
+          openWorldHint: true,
+        },
         inputSchema: {
           type: 'object',
           properties: {
@@ -81,6 +93,12 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
       {
         name: 'audit_technical_seo',
         description: 'Audits Technical SEO foundations: H1-H6 heading hierarchy (single H1, non-sequential skip detection), Schema.org JSON-LD structured data validation, Robots.txt directives, Sitemap.xml detection, and text-to-HTML ratio.',
+        annotations: {
+          readOnlyHint: true,
+          destructiveHint: false,
+          idempotentHint: true,
+          openWorldHint: true,
+        },
         inputSchema: {
           type: 'object',
           properties: {
@@ -106,6 +124,12 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
       {
         name: 'extract_human_intent_keywords',
         description: 'Extracts Human Search Intent Keywords from content, classifies intent (Informational, Commercial, Transactional, Navigational), synthesizes natural human search queries, mines answered questions, and detects AI slop / keyword stuffing.',
+        annotations: {
+          readOnlyHint: true,
+          destructiveHint: false,
+          idempotentHint: true,
+          openWorldHint: true,
+        },
         inputSchema: {
           type: 'object',
           properties: {
@@ -131,6 +155,12 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
       {
         name: 'comprehensive_seo_audit',
         description: 'Runs an all-in-one comprehensive SEO audit combining On-Page metadata, Open Graph/Twitter, Image Alt tags, Lighthouse CLS & Core Web Vitals, Technical Schema/Headings, and Human Intent Keywords into a single prioritized report with scores and action steps.',
+        annotations: {
+          readOnlyHint: true,
+          destructiveHint: false,
+          idempotentHint: true,
+          openWorldHint: true,
+        },
         inputSchema: {
           type: 'object',
           properties: {
