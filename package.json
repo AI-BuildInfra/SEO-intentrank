@@ -1,0 +1,55 @@
+{
+  "name": "@aibuildinfra/seo-intentrank",
+  "version": "1.0.0",
+  "mcpName": "io.github.aibuildinfra/seo-intentrank",
+  "description": "Official Model Context Protocol (MCP) Server for SEO-IntentRank: Human Search Intent Keywords, Technical SEO, Google Lighthouse Core Web Vitals (CLS/LCP/INP), and On-Page Audits. By AI Build Infra.",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "seo-intentrank": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "node --test",
+    "pretest": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AI-BuildInfra/SEO-intentrank.git"
+  },
+  "homepage": "https://aibuildinfra.com/",
+  "author": {
+    "name": "AI Build Infra",
+    "url": "https://aibuildinfra.com/"
+  },
+  "license": "MIT",
+  "keywords": [
+    "seo-intentrank",
+    "seo",
+    "antigravity",
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "human-intent-keywords",
+    "search-intent",
+    "technical-seo",
+    "lighthouse",
+    "cls-score",
+    "core-web-vitals",
+    "open-graph",
+    "twitter-cards",
+    "canonical-tags",
+    "image-alt-tags"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "typescript": "^5.8.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

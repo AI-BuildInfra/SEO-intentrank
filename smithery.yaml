@@ -1,0 +1,7 @@
+# Smithery configuration for SEO MCP Server
+startCommand:
+  type: stdio
+  config:
+    command: node
+    args:
+      - dist/index.js
