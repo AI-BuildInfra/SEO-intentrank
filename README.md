@@ -1,6 +1,6 @@
 # SEO-IntentRank MCP Server (`seo-intentrank`)
 
-[![M8ven Verified](https://m8ven.ai/api/agent-verify/badge?score=96)](https://m8ven.ai/verified/verify?id=0318da1e58a1109e)
+[![M8ven Score](https://m8ven.ai/badge/mcp/ai-buildinfra-seo-intentrank-ouv7e2)](https://m8ven.ai/mcp/ai-buildinfra-seo-intentrank-ouv7e2)
 [![npm version](https://img.shields.io/npm/v/seo-intentrank.svg?style=flat-square)](https://www.npmjs.com/package/seo-intentrank)
 [![license](https://img.shields.io/npm/l/seo-intentrank.svg?style=flat-square)](https://github.com/AI-BuildInfra/SEO-intentrank/blob/main/LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/AI-BuildInfra/SEO-intentrank.svg?style=flat-square)](https://github.com/AI-BuildInfra/SEO-intentrank)
