@@ -15,6 +15,13 @@
     "pretest": "npm run build",
     "prepublishOnly": "npm run build && npm test"
   },
+  "files": [
+    "dist",
+    "server.json",
+    "README.md",
+    "LICENSE",
+    "PRIVACY.md"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AI-BuildInfra/SEO-intentrank.git"
@@ -48,6 +55,8 @@
   },
   "devDependencies": {
     "@types/node": "^22.13.9",
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
     "typescript": "^5.8.2"
   },
   "engines": {

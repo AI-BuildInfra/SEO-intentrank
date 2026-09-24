@@ -1,0 +1,12 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.AI-BuildInfra/SEO-intentrank",
+  "title": "SEO-IntentRank (Antigravity MCP)",
+  "description": "Human search intent keywords, Core Web Vitals, technical SEO & on-page audit MCP server.",
+  "version": "1.0.1",
+  "websiteUrl": "https://aibuildinfra.com/",
+  "repository": {
+    "source": "github",
+    "url": "https://github.com/AI-BuildInfra/SEO-intentrank"
+  }
+}
