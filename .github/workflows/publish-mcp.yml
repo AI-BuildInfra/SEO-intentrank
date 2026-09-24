@@ -40,12 +40,13 @@ jobs:
           ARCH=$(uname -m | sed 's/x86_64/amd64/;s/aarch64/arm64/')
           TARBALL="mcp-publisher_${OS}_${ARCH}.tar.gz"
           echo "Downloading $TARBALL from latest release..."
-          curl -sL "https://github.com/modelcontextprotocol/registry/releases/latest/download/${TARBALL}" | tar -xz mcp-publisher
-          chmod +x ./mcp-publisher
-          ./mcp-publisher --version || echo "mcp-publisher ready"
+          curl -sL "https://github.com/modelcontextprotocol/registry/releases/latest/download/${TARBALL}" | tar -xz
+          sudo mv mcp-publisher /usr/local/bin/
+          sudo chmod +x /usr/local/bin/mcp-publisher
+          mcp-publisher --version || echo "mcp-publisher ready"
 
       - name: Authenticate with MCP Registry via GitHub OIDC
-        run: ./mcp-publisher login github-oidc
+        run: mcp-publisher login github-oidc
 
       - name: Publish server.json to MCP Registry
-        run: ./mcp-publisher publish
+        run: mcp-publisher publish
